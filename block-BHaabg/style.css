@@ -1,0 +1,40 @@
+body{
+    position: relative;
+}
+.top-btn{
+    text-align: center;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 0;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    padding: 20px
+}
+.width{
+    width: 50%;
+}
+.logo{
+    position: fixed;
+}
+
+.cont img{
+    width: 30%; 
+}
+.cont{
+    float: left;
+   
+    padding-top: 30px;
+}
+
+.cont a{
+  
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::before{
+    clear: both;
+}
