@@ -1,0 +1,30 @@
+h1,nav{
+    display: inline-block;
+    
+}
+nav{vertical-align: middle;
+    float: right;}
+
+.width    {
+    width: 33%;
+}
+/* .col-1,.col-2,.col-3{
+   
+}
+.col-3{
+    float: right;
+}
+.col-2{
+    margin: 0 auto;
+} */
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+article{
+
+    float: left;
+}
